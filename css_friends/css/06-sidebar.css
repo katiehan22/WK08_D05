@@ -6,3 +6,25 @@
   margin-top: -100px;
   position: relative;
 }
+
+.profile-nav {
+  display: block;
+  margin-top: 10px;
+}
+
+.profile-nav li {
+  border-bottom: 1px solid gray;
+}
+
+.profile-nav li:first-child {
+  border-top: 1px solid gray;
+}
+
+.profile-info h2 {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.profile-info p {
+  font-size: small;
+}
