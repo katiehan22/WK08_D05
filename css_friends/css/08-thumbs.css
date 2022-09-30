@@ -1,8 +1,18 @@
 /* PHASE 2: Thumbs */
 .profile-friends-group {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* grid-template-rows: 33% 33% 33%); */
 }
 
 .profile-friends-group > li:nth-child(3n-1) {
   margin: 0 10px 10px 10px;
+}
+
+.thumb {
+  display: block;
+  position: relative;
+  width: 58px;
+  height: 58px;
 }
