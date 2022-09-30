@@ -1,2 +1,8 @@
 /* PHASE 2: Thumbs */
+.profile-friends-group {
+  display: flex;
+}
 
+.profile-friends-group > li:nth-child(3n-1) {
+  margin: 0 10px 10px 10px;
+}
