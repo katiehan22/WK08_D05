@@ -16,3 +16,23 @@
   width: 58px;
   height: 58px;
 }
+
+.thumb:before {
+  content: attr(title);
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -15px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+.thumb.before {
+  /* margin-top: -10px; */
+}
+
+.thumb:hover:before, .thumb:hover:after {
+  display: block;
+}
